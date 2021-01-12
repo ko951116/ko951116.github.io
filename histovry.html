@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="histovry.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js?ver=123"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/omy6aje.css">
+</head>
+
+<body>
+    <!------------------- scroll-up-btn start ------------------->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <!------------------- preloader start ------------------->
+    <!-- <div class="preloader">
+        <div class="box">
+            <div></div><div></div><div></div>
+        </div>
+    </div> -->
+
+    <!------------------- navbar start ------------------->
+    <nav class="navbar">
+        <div class="max-width">
+            <!-- <div class="logo"><a href="#">ㅈ<span>ㅇㄱ.</span></a></div> -->
+            <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""><!-- <span>Ko</span> --></a></div>
+            <ul class="menu">
+                <li><a href="../index.html" class="menu-btn">Home</a></li>
+                <li><a href="../index.html#about" class="menu-btn">About</a></li>
+                <li><a href="../index.html#services" class="menu-btn">Projects</a></li>
+                <li><a href="../index.html#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!------------------- home section start ------------------->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="h1">Histovry</div>
+                <div class="h4">Gyeongbokgung Palace VR tour application.</div>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------- Overview section start ------------------->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Project Overview</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <p>With the rise of VR technology, more realistic experiences are possible,
+                        and tourism using these virtual reality contents is having a positive impact on the revitalization of the local tourism industry.
+                        
+                        <br><br>So we started to develop a program to explore historical sites through VR,
+                        which allows us to tour 'Gyeongbokgung Palace' in Seoul by incorporating VR technology into tourism.
+                    </p>
+                    
+                    <span>Project Info</span>
+                    <p>Graduation Project @Sookmyung Women's Univ.
+                    </p>
+
+                    <span>My Role</span>
+                    <p><b>Developer, UX researcher, UX designer</b>
+                        <br>Contributed to user research, UX workflow
+                        development, UX/UI design prototyping, 
+                        and evaluation. 
+                    </p>
+                    
+                    <span>Duration</span>
+                        <p>Mar 2018 - Nov 2018 </p>
+
+                    <span>Team</span>
+                    <p><!-- <b>Jiyoon Ko, </b> -->
+                        2-member team project 
+                    </p>
+      
+                </div>
+                <div class="column right">
+                    <img src="images/projects/histovry/overview.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!------------------- Overviewfinal section start ------------------->
+    <!-- <div class="regular" id="regular">
+        <div class="max-width">
+            <div class="overviewfinal-content">
+                <div class="overviewfinal-img">                     
+                    <img src="../images/projects/infin8/overview_overview.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!------------------- box(design challenge) section start ------------------->
+    <section class="box" id="box">
+        <div class="max-width">
+            <h2 class="title">Design Challenge</h2>
+            <div class="text">
+                <p>How can we make it easier for people to tour Korean cultural assets?
+                </p>
+            </div>
+        </div>
+    </section>
+
+   <!------------------- The Process section start ------------------->
+    <section class="regular" id="regular">
+        <div class="max-width">
+            <h2 class="title">The Process</h2>
+            <div class="regular-content">
+                <div class="process-img">                     
+                    <img src="../images/projects/infin8/process_process2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!------------------- 1. Research section start ------------------->
+    <section class="regular" id="regular">
+        <div class="max-width">
+            <h2 class="title">1. Research</h2>
+
+            <!---------------------------------------- Inspiration---------------------------------------->
+            <div class="sub-title-content">
+                <h3 class="sub-title">Inspiration</h3>
+                    <div class="regular-content">
+                        <p>As K-pop becomes popular, foreigners' interest in Korean culture
+                            is increasing, and therefore the number of travelers is increasing.
+                            However, depending on the circumstances, they may not be able
+                            to come to Korea directly, so we started the project to solve
+                            this problem. </p>
+                    <img src="../images/projects/histovry/inspiration.png" alt="">
+                    </div>
+            </div>
+
+            <!---------------------------------------- Problems---------------------------------------->
+            <div class="sub-title-content">
+            <h3 class="sub-title">Problems: <span>What makes traveling to Seoul difficult?</span></h3>
+                <div class="list-content">
+                    <div class="list">
+                        <p class="list-title"><span>1</span>Place Constraint</p>
+                        <p>Thanks to the popularity of K-pop, more and more people want to travel to Korea, but it is not easy to come to Korea from a country far from Asia. Of course, it is also not easy to travel from provinces to Seoul in Korea depending on the situation.
+                        </p>
+                    </div>
+                    <div class="list">
+                        <p class="list-title"><span>2</span>Time</p>
+                        <p>It is not easy to travel for a long time because most people work or go to school. In particular, students and office workers do not have much time to travel.
+                        </p>
+                    </div>
+                    <div class="list">
+                        <p class="list-title"><span>3</span>Money</p>
+                        <p>Flight tickets, hotel reservations, etc. are essential to travel, but it can be burdensome to pay for everything. In particular, students are likely to have limited money to spend.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------------------- vision ---------------------------------------->
+            <div class="sub-title-content">
+                <h3 class="sub-title">Vision</h3>
+                    <div class="regular-content">
+                        <p></p>
+                    <img src="../images/projects/histovry/vision.png" alt="">
+                    </div>
+            </div>
+
+            <!---------------------------------------- persona ---------------------------------------->
+            <div class="sub-title-content">
+                <h3 class="sub-title">Persona</h3>
+                    <div class="regular-content">
+                        <p></p>
+                        <img src="../images/projects/histovry/persona111.png" alt="">
+                        <img src="../images/projects/histovry/persona111.png" alt="">
+                    </div>
+            </div>
+
+         
+<!-- 
+            <div class="max-width">
+                <div class="sub-title-content">
+                    <h3 class="sub-title">Insight from "SuperBin" project</h3>
+                    <p>
+                        This machine is about recycling and get money back like Pfand system in Europe. The can is 7 points, PET bottle is 5 points. If the point exceeds 2000 points, user can change it into real money. 
+                    </p>
+                    <p>
+                        <strong>INSIGHT 01</strong>
+                        <br>It was easy to use it because there was a information like illustration, and video about how to use. It also needs to be notice exactly what materials can be put inside the machine. 
+                    </p>
+                    <p>
+                        <strong>INSIGHT 02</strong>
+                        <br>Unlike this machine, our machine does not need big screen to touch because it can be problem about infection. So using app instead of putting big screen on the machine is better, we think.   
+                    </p>
+
+                    <p>
+                        <strong>INSIGHT 03</strong>
+                        <br>It should be noticed if the machine is full. We went to two other different machines. The first one was full so we couldn’t use it. We didn’t know if it was full so it was inconvenient.
+                    </p>
+
+                    <p>
+                        <strong>INSIGHT 04</strong>
+                        <br>It needs to place other garbage bin next to the machine. Like I said above, we went to two machines and near the first one there was no garbage bins, and also plastic bottle was threw next to the machine. The next one, there was another recycling bin close to the machine. Then it was so clear around, so we may be need to consider this because people may think if the machine is another garbage bin.
+                    </p>
+
+                    <p>
+                        <strong>INSIGHT 05</strong>
+                        <br>Maybe we can put sanitizer next to machine, because we are touching used mask instead of PET or can. 
+                    </p>
+
+                    <p>
+                        <strong>INSIGHT 06</strong>
+                        <br>It would be better if the entrance of the garbage closed, like we said before for sterilization.
+                    </p>
+                   
+                </div>
+            </div> -->
+          
+            
+        </div>
+    </section>
+
+    <!------------------- SUPERBIN section start ------------------->
+    <!-- <section class="box2" id="box2">
+        <div class="max-width">
+            <h2 class="title">How to use “SuperBin”</h2>
+            <div class="box-content">
+                <figure>
+                    <div class="img-caption">
+                        <img src="../images/projects/infin8/SUPENBIN/1-1.jpg" alt="">
+                        <figcaption>1. Select whether you put a can or a pet</figcaption>
+                    </div>
+                    <div class="line"></div>
+
+                    <div class="img-caption">
+                        <img src="../images/projects/infin8/SUPENBIN/2.jpg" alt="">
+                        <figcaption>2. Put a can/pet</figcaption>
+                    </div>
+                    <div class="line"></div>
+                    
+                    <div class="img-caption">
+                        <img src="../images/projects/infin8/SUPENBIN/3.jpg" alt="">
+                        <figcaption>3. It collects a can/pet 
+                            through a conveyor belt</figcaption>
+                    </div>
+                    <div class="line"></div>
+
+                    <div class="img-caption">
+                        <img src="../images/projects/infin8/SUPENBIN/4.jpg" alt="">
+                        <figcaption>4. You get points.
+                            If your total points exceed 2000,
+                            users can exchange it into real money.
+                            <br>(can = 7points, pet = 5points)</figcaption>
+                    </div>
+
+                </figure>
+            </div>
+        </div>
+    </section> -->
+
+    <!------------------- insights section start ------------------->
+    <!-- <section class="about" id="about">
+        <div class="max-width">
+            <div class="sub-title-content">
+                <h2 class="sub-title">Insight from "SuperBin" project 3333</h2>
+        
+            </div>
+            
+                
+            </div>
+        </div>
+    </section> -->
+
+    <!------------------- Key findings section start ------------------->
+    <!-- <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="sub-title">Insight from "SuperBin" project</h2>
+            <div class="about-content">
+                
+            </div>
+        </div>
+    </section> -->
+
+
+
+
+    <!------------------- 2. Ideation section start ------------------->
+    <section class="regular" id="regular">
+        <div class="max-width">
+            <h2 class="title">2. Ideation</h2>
+
+            <!---------------------------------------- Key Criteria ---------------------------------------->
+            <div class="sub-title-content">
+                <h3 class="sub-title">Key Criteria</h3>
+                    <div class="regular-content">
+                        <p>With these considerations for all the previous research steps, we were able to narrow down the key criteria for our holistic system for the waste of the disposable face masks.
+                        </p>
+                        <img src="../images/projects/infin8/keycriteria.png" alt="">
+                    </div>
+            </div>
+
+            <!---------------------------------------- journey map  ---------------------------------------->
+            <div class="sub-title-content">
+                <h3 class="sub-title">Journey Map </h3>
+                    <div class="regular-content">
+                        <p>With these considerations for all the previous research steps, we were able to narrow down the key criteria for our holistic system for the waste of the disposable face masks.
+                        </p>
+                        <!-- <img src="../images/projects/histovry/journeymap.png" alt=""> -->
+                        <div class="system-chart-img">                     
+                            <img src="../images/projects/histovry/journeymap2.png" alt="">
+                        </div>
+                    </div>
+            </div>
+     
+        </div>
+    </section>
+
+    <!--------------------------------------Final Concept---------------------------------->
+    <section class="box3" id="box3">
+        <div class="max-width">
+            <h2 class="title">Final Concept</h2>
+            <div class="box-content">
+               <h3 class="sub-title">With VR technology:</h3>
+               <div class="list-content">
+                    <div class="list">
+                        <p class="list-title"><span>1. </span>Provide local residents and students in Korea with a service to experience Seoul's cultural sites
+                        </p>
+                    </div>
+                    <div class="list">
+                        <p class="list-title"><span>2. </span>Provide foreign residents and students with a service to experience Korea's cultural sites</p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!------------------------------------3. Design Prototype------------------------------->
+    <section class="regular" id="regular">
+        <div class="max-width">
+            <h2 class="title">3. Design Prototype</h2>
+
+            <!--------------------------------------Video Shooting--------------------------------->
+            <div class="sub-title-content">
+                <h3 class="sub-title">Video Shooting & Editing </h3>
+                    <div class="regular-content">
+                        <p>As K-pop becomes popular, foreigners' interest in Korean culture
+                            is increasing, and therefore the number of travelers is increasing.
+                            However, depending on the circumstances, they may not be able
+                            to come to Korea directly, so we started the project to solve
+                            this problem. </p>
+                    <img src="../images/projects/infin8/inspiration.png" alt="">
+                    </div>
+            </div>
+
+             <!--------------------------------------Video Edit--------------------------------->
+            <!--  <div class="sub-title-content">
+                <h3 class="sub-title">Video Edit </h3>
+                    <div class="regular-content">
+                        <p>As K-pop becomes popular, foreigners' interest in Korean culture
+                            is increasing, and therefore the number of travelers is increasing.
+                            However, depending on the circumstances, they may not be able
+                            to come to Korea directly, so we started the project to solve
+                            this problem. </p>
+                    <img src="../images/projects/infin8/inspiration.png" alt="">
+                    </div>
+            </div> -->
+
+            <!----------------------------------App Development--------------------------------->
+            <div class="sub-title-content">
+                <h3 class="sub-title">App Development</h3>
+                    <div class="regular-content">                        
+                        <p>Before we start working on DIY design, we decided to make an item ourselves using a mask. The reason for making this prototype was to experience the process of making the necessary items using the masks that you used which is the overall purpose of the project. It was also because we had to know what the results of our project would look like and what people will experience in the process of making it.
+                        </p>
+
+                        <!----------------------------------Information Architecture----------------------------------->
+                        <h4 class="sub-title-smaller">Information Architecture</h4>
+                        <img src="../images/projects/infin8/prototype/rosemold_rosemold.png" alt="">
+
+                        <!----------------------------------Wireframe----------------------------------->
+                        <h4 class="sub-title-smaller">Wireframe</h4>
+                        <img src="../images/projects/histovry/wireframe.png" alt="">
+
+
+
+                        <!----------------------------------Development Environment----------------------------------->
+                        <h4 class="sub-title-smaller">Development Environment</h4>
+                        <p>The overall project development environment is Unity, and the development language is C#. To implement the login system, a script was written in C# language inside Unity and it is connected to a PHP file, and then the contents of the Web DB were imported. As an application development tool, we used Android Studio 3.0 version SDK and Java JDK1.8.0_172. Target devices are Android operating system devices.
+                        </p>
+                        <img src="../images/projects/histovry/environment.png" alt="">
+                     
+                        <div class="gray_box">
+                            <img src="../images/projects/histovry/process4.png" alt="">
+                        </div>
+                        
+
+
+
+                        <!---------------------------------Sign Up & Login System----------------------------------->
+                        <h4 class="sub-title-smaller">Sign Up & Login System</h4>
+                        <p>We needed a server to manage the user's information, so we bought a 64bit JSP light-hosting from Cafe 24 (www.cafe24.com). 
+                            Sign up and login pages are implemented using Unity's UI. 
+                            We used C# scripts and php files to access the server's db, enabling login and sign up.
+                        </p>
+                        <img src="../images/projects/histovry/loginsystem.png" alt="">
+                        <img src="../images/projects/histovry/loginmanager2.png" alt="">
+
+                        
+                        <!-- <img src="../images/projects/histovry/signup.png" alt="">
+
+                        <img src="../images/projects/histovry/code.png" alt="">
+                        <img src="../images/projects/histovry/code3.png" alt="">
+
+                        <div class="gray_box">
+                            <img src="../images/projects/histovry/code.png" alt="">
+                        </div>
+                     -->
+                        
+
+                        <!---------------------------------Scene Transition----------------------------------->
+                        <h4 class="sub-title-smaller">Scene Transition</h4>
+                        <p>C# scripts are inserted so that users can gaze at where they want to tour for more than 2 seconds and move on to the desired scene.
+                        </p>
+                        <img src="../images/projects/histovry/change_code2.png" alt="">
+
+
+                        <!---------------------------------VR Tour Scene----------------------------------->
+                        <h4 class="sub-title-smaller">VR Tour Scene</h4>
+                        <p>The login screen is implemented as 2D for user convenience, and the Cardboard is added after selecting None in the Virtual Reality SDKs component in order to implement it as a VR mode from the next screen.
+                            VRNoThanks script was added to the login scene so that it could be seen on a regular screen, while VRYesPlease script was added to the main menu scene, the second scene, to make all subsequent scenes work in VR mode.
+                        </p>
+                        <br><br><br>
+                        <img src="../images/projects/histovry/tourscene.png" alt="">
+
+
+                        <!----------------------------------DIY Kits prototype------------------------------------------->
+                        <!-- <h4 class="sub-title-smaller">DIY Kits prototype</h4>
+                        <h3>Rose Mold</h3>
+                        <p>We made rose shape mockup with resin and masks, may work for our DIY idea. We could control the resin setting time by the proportion of the fixative. </p>
+                        <img src="../images/projects/infin8/prototype/rosemold_rosemold.png" alt="">
+                        <br> 
+                        -->
+                        
+
+                    </div>
+            </div>
+
+            
+            <!----------------------------------Brand Guideline------------------------------------------>
+            <!-- <div class="sub-title-content">
+                <h3 class="sub-title">Brand Guideline</h3>
+                    <h3>Color</h3>
+                        <div class="regular-content">
+                            <p>Because our project is about recycling and eco-frindly, we selected bright blue & green color as a main combo color.</p>
+                            <img src="../images/projects/infin8/app/colorfont.png" alt="">
+
+                        </div>
+
+                    <h3>Font</h3>
+                        <div class="regular-content">
+                            <p>Head<strong class="allroundgothic">All Round Gothic</strong>Those who subscribe Adobe CC can download free in Adobe Fonts</p>
+                            <p>Body<strong class="poppins">Poppins</strong>You can download free in google fonts.</p>
+ 
+                        </div>
+            </div> -->
+            
+
+<!-- 
+            <div class="sub-title-content">
+            <h3 class="sub-title">Problems: <span>What makes recycling of masks difficult?</span></h3>
+                <div class="list-content">
+                    <div class="list">
+                        <p class="list-title"><span>1</span>Infection Risk</p>
+                        <p>Incorrect disposal harmful to animals and humans as the virus can survive on a plastic surgical mask for about seven days. There is the fear that PP exposed to COVID-19 could infect the front-line waste management workers who may not be properly outfitted or take the necessary precautions to handle potentially hazardous waste.</p>
+                    </div>
+                    <div class="list">
+                        <p class="list-title"><span>2</span>Materials</p>
+                        <p>The most commonly used material for a disposable mask is polypropylene(PP), a polymer derived from petroleum oil. In addition to non-woven fabric, the mask material also includes wire (nose support) and rubber band (mask strap), so it can be regenerated only when these are removed.</p>
+                    </div>
+                    <div class="list">
+                        <p class="list-title"><span>3</span>Lack of Awareness</p>
+                        <p>Used masks should be dumped separately and disposed not in general waste. However, most people throw their masks into a general trash can or even throw them on the ground at random.</p>
+                    </div>
+                </div>
+            </div>
+ -->
+        
+         
+        </div>
+    </section>
+
+
+
+    <!---------------------------------------4. Final design------------------------------------->
+    <section class="regular" id="regular">
+        <div class="max-width">
+            <h2 class="title">4. Final design</h2>
+            <div class="sub-title-content">
+                <h3 class="sub-title">Solution: <span>We have a solution!</span></h3>
+                    <div class="regular-content">
+                        <p>We have seen our errors in the past with the use of single use plastics and not considering end of life of products. Designing a solution that remediates the forthcoming issue ever-growing volume of used face mask is something that needs to be addressed immediately before it becomes insurmountable. </p>
+                        <!----------------------------------- Solution ----------------------------------->
+                        <!-- <h4 class="sub-title-smaller">We have a solution!</h4> -->
+                        <img src="../images/projects/infin8/solution.jpg" alt="">
+
+                        <!----------------------------------- What are we offering?----------------------------------->
+                        <div class="sub-title-content">
+                            <h3 class="sub-title">What are we offering? </h3>
+                                <div class="list-content">
+                                    <div class="list">
+                                        <p class="list-title"><span>1</span>Reverse Vending Machine</p>
+                                        <p>Innovative RVM turns contaminated masks into 100% sterilized material. This material can be used by the public or in industrial application.</p>
+                                    </div>
+                                    <div class="list">
+                                        <p class="list-title"><span>2</span>App</p>
+                                        <p>App to connect users to machines, incentives and rewards. Capture a QR Code to Return and Save Masks Easily.
+                                            Easy to use the interface and connect to the vending machine.
+                                        </p>
+                                    </div>
+                                    <div class="list">
+                                        <p class="list-title"><span>3</span>DIY Kits</p>
+                                        <p>DIY experience for the public to creatively repurpose the material as fun, novel and useful products. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <br> <br><br>
+
+                        <!-----------------------------------system chart design----------------------------------->
+                       <!--  <div class="system-chart">
+                            <h4 class="system-chart-text">System-Chart</h4>
+                            <div class="system-chart-img">                     
+                                <img src="../images/projects/infin8/systemchart.png" alt="">
+                            </div>
+                        <br> <br><br>
+                        </div> -->
+                     
+                         
+                        <!----------------------------------Vending Machine design----------------------------------------->
+                        <h3 class="sub-title">Final Design: <span> </span></h3>
+                        <p>Contactless way to safely dispose of used masks in a way that rewards and protects wearers while also giving the masks a purposeful second life. Fun and approachable in a time of pessimism and uncertainty.</p>
+                        <!-- <h3>Rose Mold</h3> -->
+                        <div class="final_vendingmachine">
+                            <img src="../images/projects/infin8/finaldesign/vendingmachine_green.png" alt="">
+                            <img src="../images/projects/infin8/finaldesign/vendingmachine1.png" alt="">
+                        </div>
+                        <br> <br><br>
+
+
+                        <!----------------------------------App design----------------------------------------->
+                        
+                       <!--  <h3 class="sub-title">Final Design: <span>App Design</span></h3>
+                        <p>Contactless way to safely dispose of used masks in a way that rewards and protects wearers while also giving the masks a purposeful second life. Fun and approachable in a time of pessimism and uncertainty.</p>
+                        
+                        <div class="figma">
+                            <iframe style="border: 0px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FsK67I1utzXvl83pQXZmAYZ%2Finfin8%3Fnode-id%3D2%253A281%26scaling%3Dcontain" allowfullscreen></iframe>
+                            <p>Interactive prototype built on Figma</p>
+                        </div>
+                        <br> <br><br> -->
+                        
+
+                        <!---------------------------------DIY Kits Box design----------------------------------------->
+                        <h3 class="sub-title">Final Design: <span> </span></h3>
+                        <p>Fun, optimistic and engaging DIY projects that reinforce sustainable values and a unique approach to prevent an improper disposal of used masks.
+                        </p>      
+                        <img src="../images/projects/infin8/finaldesign/box.png" alt="">
+
+
+                        <!-----------------------------------Sticker design-----------------------------------> 
+                        <!-- <h4 class="sub-title-smaller">Sticker</h4> -->
+                        <div class="system-chart">
+                            <img src="../images/projects/infin8/sticker.png" alt="">
+                        </div>
+   
+                    </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!------------------- reflection section start ------------------->
+    <section class="regular" id="regular">
+        <div class="max-width">
+            <h2 class="title">Reflections</h2>
+            <div class="sub-title-content">
+                    <div class="regular-content">
+                        <!-- <div class="reflection-img">
+                            <img src="../images/projects/histovry/reflection.png" alt="">
+                        </div> -->
+                        <img src="../images/projects/histovry/reflection.png" alt="">
+
+                            <p>The camp, which was held during the Pandemics season due to COVID-19, was held online. All meetings, except field trips and prototyping, were conducted online, and so sometimes there were misunderstandings between each other. But for about two weeks, we gradually learned how to collaborate and work with colleagues in this Corona era. Personally, I think it was a good opportunity to learn directly how to collaborate with colleagues in these situations.</p>
+                            <p>It was not only about learning a design process but an opportunity to work together with various people from different background. We all have a different background such as engineering, industrial design and UX design and even our nationalities were different like South Korea, Hong Kong, Indonesia and Australia. It was such a wonderful experiences to work with different people. It was my first time collaborating with an industrial design major, and for me, who liked design and learning, the process of collaborating with industrial design team members was enjoyable and I could learn many new things.
+                            </p>
+                            <p>The great part of this project was that we enjoyed the working process. In this pandemic, we were happy that we tried to create something useful for human kind. Although we know that our project may be difficult to realize in reality due to various constraints, it was a project that started with the hope that our project would actually be realized in the near future and solve the problem of disposable masks around the world. </p>
+                            <p>I was the team leader of Team 8 from the start. Obviously, it was never easy to pull people from different backgrounds, including nationality and major, into one team. However, all the team members faithfully performed their duties in the fields they could do, making it relatively easy to lead the team in a good direction. I think this good teamwork, along with good project results, contributed to winning the Best Project Award at the end of the camp. Once again, thank the team members from all over the world for working together on the project.</p>
+
+                    </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------- footer section start ------------------->
+    <footer>
+        <span>Created By <a href="#">Jiyoon Ko</a> | <span class="far fa-copyright"></span> Copyright 2020</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

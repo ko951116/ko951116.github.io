@@ -189,7 +189,7 @@ section .title{
     margin-bottom: 30px;
     padding-bottom: 20px;
     font-family: 'Poppins', sans-serif;
-    color: #0571FF;
+    color: #ff7bac;
 }
 
 section .sub-title-content .sub-title{
@@ -200,7 +200,7 @@ section .sub-title-content .sub-title{
     margin-bottom: 5px;
     padding-bottom: 20px;
     font-family: 'Poppins', sans-serif;
-    color: #0571FF;
+    color: #ff7bac;
 }
 section .sub-title span {
     font-family: "Poppins", sans-serif;
@@ -216,7 +216,7 @@ section .sub-title-smaller{
     margin-bottom: 10px;
     padding-bottom: 20px;
     font-family: 'Poppins', sans-serif;
-    color: #0571FF;
+    color: #ff7bac;
 }
 
 section .list span{
@@ -232,7 +232,7 @@ section .list span::before {
     width: 40px;
     height: 40px;
     line-height: 40px;
-    background: #0571FF;
+    background: #ff7bac;
     content: "";
     position: absolute;
     z-index: -1;
@@ -280,7 +280,7 @@ home section
 -------------------------------------------------------------------------------------*/
 .home{
     display: flex;
-    background: url("images/projects/infin8/infin8.png") no-repeat center;
+    background: url("images/projects/mon/bg.png") no-repeat center;
     background-size: cover;
     min-height: 500px;
     height: 100vh;
@@ -383,7 +383,7 @@ Overview section
 }
 
 .about .column span {
-    color: #0571FF;
+    color: #ff7bac;
     font-weight: 600;
 }
 
@@ -397,7 +397,7 @@ box section
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
-    background: #0571FF; 
+    background: #ff7bac; 
 
     min-height: 400px;
     text-align: center;
@@ -418,7 +418,7 @@ box section
     padding-bottom: 40px;
     /* display: block; */
    /*  align-items: center; */
-    background: #4ADDA3; 
+    background: #ff7bac; 
     min-height: 500px;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
@@ -459,7 +459,7 @@ box section
     padding-top: 50px;
     padding-bottom: 15px;
    /*  display: flex; */
-    background: #0571FF; 
+    background: #ff7bac; 
     min-height: 350px;
  /*    text-align: center; */
     box-sizing: content-box;
@@ -538,7 +538,7 @@ figure .line{
   /*   top: 50%; */
   margin-top: 10%;
     display:block; 
-    background:#4ADDA3; 
+    background:#ff7bac; 
     position:relative; 
    /*  margin: 0 auto; */
   /*  margin: 30px; */
@@ -562,7 +562,7 @@ figure .line::before {
     /*   top: 50%; */
     margin-top: 10%;
       display:block; 
-      background:#4ADDA3; 
+      background:#ff7bac; 
       position:relative; 
      /*  margin: 0 auto; */
     /*  margin: 30px; */
@@ -589,7 +589,7 @@ figcaption {
     font-family: arial, sans-serif
 }
 figcaption strong {
-    color: #0571FF;
+    color: #ff7bac;
     margin-right: 5px;
 }
 
@@ -611,14 +611,14 @@ regular
 }
 .arrow {
     display:block; 
-    background:#4ADDA3; 
+    background:#ff7bac; 
     position:relative; 
     margin: 0 auto;
 }
 .arrow.test_1 {width:10px; height:20px;}
 .arrow:after {content:''; position:absolute; width:0; height:0; border-style:solid;}
 .arrow.test_1:after {border-width:20px 15px;}
-.arrow.test_1:after {border-color:#4ADDA3 transparent transparent transparent; top:20px; left:-10px;}
+.arrow.test_1:after {border-color:#ff7bac transparent transparent transparent; top:20px; left:-10px;}
 
 
 .sub-title-content .app_sketch {

@@ -28,12 +28,12 @@
     <nav class="navbar">
         <div class="max-width">
             <!-- <div class="logo"><a href="#">ㅈ<span>ㅇㄱ.</span></a></div> -->
-            <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""><!-- <span>Ko</span> --></a></div>
+            <div class="logo"><a href="index.html"><img src="images/logo2.png" alt=""><!-- <span>Ko</span> --></a></div>
             <ul class="menu">
-                <li><a href="index.html" class="menu-btn">Home</a></li>
-                <li><a href="index.html#about" class="menu-btn">About</a></li>
-                <li><a href="index.html#services" class="menu-btn">Projects</a></li>
-                <li><a href="index.html#contact" class="menu-btn">Contact</a></li>
+                <li><a href="index.html" class="menu-btn">HOME</a></li>
+                <li><a href="index.html#about" class="menu-btn">ABOUT</a></li>
+                <li><a href="index.html#services" class="menu-btn">PROJECTS</a></li>
+                <!-- <li><a href="index.html#contact" class="menu-btn">Contact</a></li> -->
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -83,7 +83,7 @@
       
                 </div>
                 <div class="column right">
-                    <img src="images/projects/infin8/overview.png" alt="">
+                    <img src="images/projects/mon/overview.png" alt="">
                 </div>
             </div>
         </div>
@@ -129,160 +129,65 @@
     </section>
 
     
-    <!----------------------------- 1. research section start ------------------------------>
+    <!-----------------------------Step 01------------------------------>
     <section class="regular" id="regular">
         <div class="max-width">
-            <h2 class="title">Step 01</h2>
+            <h2 class="title">STEP 01</h2>
 
-            <!------------------------------Inspiration: --------------------------->
+            <!-----------------------------Situation-------------------------->
             <div class="sub-title-content">
-                <h3 class="sub-title">Process: <span>Find the location.</span></h3>
+                <h3 class="sub-title">Situation: <span>Find the shortest path to exit the maze</span></h3>
                 <div class="regular-content">
                     <p>
-                        Let's find Jiyoon's house. It should be the shortest way.
+                        Let's say there are no clues whether 1 is Jiyoon's house or 2. Anyway, it is the most closest one from the point where MON starts. How might MON find the destination?
                     </p>
-                    <img src="images/projects/infin8/inspiration0.png" alt="">
-                    <img src="images/projects/infin8/inspiration2.png" alt="">
+                    <img src="images/projects/mon/maze.png" alt="">
+                   
                 </div>
             </div>
 
-            <!------------------------------User Surveys---------------------------->
+            <!------------------------------BFS---------------------------->
             <div class="sub-title-content">
-                <h3 class="sub-title">User Surveys <span>(35 Responses)</span></h3>
-                <div class="regular-content">
-                    <img src="images/projects/infin8/survey01.png" alt="">
-                    <img src="images/projects/infin8/survey.png" alt="">
-                </div>
-            </div>
+                <h3 class="sub-title">BFS Algorithm </h3>
+                <a target="_blank" href="https://github.com/ko951116/maze_bfs/tree/main/maze_bfs">View Code</a>
 
-            <!------------------------------Research Study---------------------------->
-            <div class="sub-title-content">
-                <h3 class="sub-title">Research Study: <span>About the mask</span></h3>
-                <div class="regular-content">
-                    <p>As you can see from the picture below, the masks we use consist of layers made of different materials. Among them, Polypropylene(PP) is one of the most commonly used types of plastics, which can actually be recycled. The problem is that in the case of masks, layers of various materials overlap, so it is difficult to extract only recyclable PP materials and recycle them properly. Therefore, experts believe that while recycling of masks may be technically possible, it is not economically feasible to recycle them as high value-added products.</p>
-                    <img src="images/projects/infin8/aboutmask.png" alt="">
-
+                <img src="images/projects/mon/maze2.png" alt="">
+                
+                <div class="list-content">
+                    <div class="list">
+                        <p class="list-title"><span>1</span>Apply all possible operators (sucessor function) to the start node</p>
+                    </div>
+                    <div class="list">
+                        <p class="list-title"><span>2</span>Apply all possible operators to all the direct successors of the start node</p>
+                    </div>
+                    <div class="list">
+                        <p class="list-title"><span>3</span>Apply all possible operators to their successors till goal node found</p>
+                    </div>
                 </div>
             </div>
     
-
-            <!------------------------------Key Problems:---------------------------->
-            <div class="sub-title-content">
-            <h3 class="sub-title">Key Problems: <span>What makes recycling of masks difficult?</span></h3>
-                <div class="list-content">
-                    <div class="list">
-                        <p class="list-title"><span>1</span>Infection Risk</p>
-                        <p>Incorrect disposal harmful to animals and humans as the virus can survive on a plastic surgical mask for about seven days. There is the fear that PP exposed to COVID-19 could infect the front-line waste management workers who may not be properly outfitted or take the necessary precautions to handle potentially hazardous waste.</p>
-                    </div>
-                    <div class="list">
-                        <p class="list-title"><span>2</span>Materials</p>
-                        <p>The most commonly used material for a disposable mask is polypropylene(PP), a polymer derived from petroleum oil. In addition to PP non-woven fabric, the mask includes different materials, so it can be properly regenerated only when these are removed.</p>
-                    </div>
-                    <div class="list">
-                        <p class="list-title"><span>3</span>Lack of Awareness</p>
-                        <p>For recycling, used masks should be dumped separately and disposed not in general waste. However, most people throw their masks into a general trash can or even throw them on the ground at random.</p>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-----------------------------Field Trips---------------------------->
-            <div class="sub-title-content">
-                <h3 class="sub-title">Field Trips</h3>
+             <!------------------------------Result: --------------------------->
+             <div class="sub-title-content">
+                <h3 class="sub-title">Result</h3>
                 <div class="regular-content">
-                    <p>We went on field trips to find the insights and for user research. All the team members could not get together because of the pandemic situation, but we proceeded field trips in our respective counties and locations. I made a Seoul team and conducted a field trip in Seoul.
+                    <p>
+                        Found Jiyoon's house within 18steps! 
                     </p>
-                    <h4 class="sub-title-smaller">@University of Ottawa Campus</h4>
-                    <div class="fieldtrip-1">
-                         <img src="images/projects/infin8/ottawa.png" alt="">
-                    </div>
-                    
-                    <h4 class="sub-title-smaller">@Seoul Children’s Grand Park</h4>
-                    <div class="fieldtrip">
-                        <img src="images/projects/infin8/seoulpark4.png" alt="">
-                    </div>
-
-                    <!----------------------------How to use SuperBin-------------------------->
-                    <span class="arrow test_1"></span><br><br><br>
-                    <img src="images/projects/infin8/howtouse.png" alt="">
-                   
+                    <img src="images/projects/mon/maze3.png" alt="">
                 </div>
             </div>
-
-            <div class="max-width">
-                <div class="sub-title-content">
-                    <h3 class="sub-title">Insights from 'SuperBin' project</h3>
-                    <p>
-                        This machine is about recycling and get money back like Pfand system in Europe. A can is 7 points, PET bottle is 5 points. If the points exceed 2000 points, user can change it into real money. 
-                    </p>
-                    <br><br><br><br>
-
-                    <img src="images/projects/infin8/superbin_insight3.png" alt="">
-
-                    <!-- 
-                    <p>
-                        <strong>INSIGHT 01</strong>
-                        <br>It was easy to use it because there was a information like illustration, and video about how to use. It also needs to be notice exactly what materials can be put inside the machine. 
-                    </p>
-                    <p>
-                        <strong>INSIGHT 02</strong>
-                        <br>Unlike this machine, our machine does not need big screen to touch because it can be problem about infection. So using app instead of putting big screen on the machine is better, we think.   
-                    </p>
-
-                    <p>
-                        <strong>INSIGHT 03</strong>
-                        <br>It should be noticed if the machine is full. We went to two other different machines. The first one was full so we couldn’t use it. We didn’t know if it was full so it was inconvenient.
-                    </p>
-
-                    <p>
-                        <strong>INSIGHT 04</strong>
-                        <br>It needs to place other garbage bin next to the machine. Like I said above, we went to two machines and near the first one there was no garbage bins, and also plastic bottle was threw next to the machine. The next one, there was another recycling bin close to the machine. Then it was so clear around, so we may be need to consider this because people may think if the machine is another garbage bin.
-                    </p>
-
-                    <p>
-                        <strong>INSIGHT 05</strong>
-                        <br>Maybe we can put sanitizer next to machine, because we are touching used mask instead of PET or can. 
-                    </p>
-
-                    <p>
-                        <strong>INSIGHT 06</strong>
-                        <br>It would be better if the entrance of the garbage closed, like we said before for sterilization.
-                    </p> -->
-                   
-                </div>
-            </div>
-          
-            
+        
         </div>
     </section>
-
-    <!------------------- Key findings section start ------------------->
-    <!-- <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="sub-title">Insight from "SuperBin" project</h2>
-            <div class="about-content">
-                
-            </div>
-        </div>
-    </section> -->
-
-    <!------------------- 2. Design Ideation section start ------------------->
+  
+    <!---------------------------------------Step 02 --------------------------------------->
     <section class="regular" id="regular">
         <div class="max-width">
-            <h2 class="title">Step 02</h2>
-            <div class="sub-title-content">
-                <h3 class="sub-title">Key Criteria</h3>
-                    <div class="regular-content">
-                        <p>With these considerations for all the previous research steps, we were able to narrow down the key criteria for our holistic system for the waste of the disposable face masks.
-                        </p>
-                        <img src="images/projects/infin8/keycriteria.png" alt="">
-                    </div>
-            </div>
-
-          
+            <h2 class="title">STEP 02</h2>
+         
              <!--------------------------------------Exploring Design Ideas---------------------------------->
             <div class="sub-title-content">
-                <h3 class="sub-title">Exploring Design Ideas</h3>
+                <h3 class="sub-title">Situation: </h3>
                     <div class="regular-content">
                         <div class="sub-title-content">
                             <!--------------------------------------step1: How to collect the masks?--------------------------------->

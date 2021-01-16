@@ -10,11 +10,13 @@ html {
     scroll-behavior: smooth;
 }
 .max-width {
-    max-width: 1300px;
+    max-width: 1200px;
     padding: 0 80px;
     margin: auto;
 }
-
+.nav-max-width {
+    max-width: 1300px;
+}
 
 
 /*------------------------------------------
@@ -75,8 +77,9 @@ navbar
     z-index: 999;
     padding: 30px 0;
     /* background: crimson; */
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
+    
 }
 .navbar.sticky{
     padding: 15px 0;
@@ -87,6 +90,7 @@ navbar
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1300px;
 }
 .navbar .logo img {
     color: gray;
@@ -177,9 +181,10 @@ home section
 .home .home-content .text-1 {
     font-family: 'Poppins', sans-serif;
 
-    padding-top: 100px;
+    text-align: center;
+    padding-top: 60px;
     /* font-size: 27px; */
-    font-size: 3rem; /*이게 마지막 수정.*/
+    font-size: 2.3rem; /*이게 마지막 수정.*/
     /* font-size: 2rem; */
 
     font-weight: 500;
@@ -187,6 +192,7 @@ home section
 }
 .home .home-content .text-1 span {
     color: crimson;
+    font-weight: 600;
 }
 
 .home .home-content .text-2 {
@@ -297,14 +303,14 @@ about section
 .contact .contact-content {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 .about .about-content .left {
     width: 45%;
 }
 .about .about-content .left img{
-    height: 500px;
+    height: 480px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
@@ -323,7 +329,7 @@ about section
 }
 .about .about-content .right p {
     text-align: justify;
-    font-size: 15px;
+    font-size: 16px;
 }
 .about .about-content .right .cv {
     display: inline-block;

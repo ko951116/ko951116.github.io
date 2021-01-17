@@ -354,8 +354,12 @@ Overview section
     margin: 0 auto;
 }
 
-
-.regular a {
+.regular .regular-content .href {
+    display: flex;
+    justify-content: center;
+    
+}
+.regular .regular-content .href a {
     /* display: inline-block; */
     background: crimson;
     color: #ffffff;
@@ -363,20 +367,27 @@ Overview section
     font-size: 16px;
     font-weight: 500;
 
-    clear:both;
-    float:left;
+   /*  clear:both;
+    float:left; */
   
     padding: 5px 30px;
-    margin-top: 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
     border-radius: 6px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
+    width: 150px;
+    /* max-width: 100%; */
+    /* max-width: 90%; */
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+    
+    text-align: center;
 }
-.regular a:hover {
+.regular .regular-content .href a:hover {
     color: crimson;
     background: none;
 }
@@ -387,6 +398,8 @@ Overview section
     width: 50%;
     margin-right: 10px;
 }
+
+
 
 
 .about .about-content .left .text{
@@ -421,8 +434,70 @@ Overview section
     font-weight: 600;
 }
 
+.regular .arduino {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.regular .arduino .left {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 65%;
+}
+.regular .arduino .left img{
+  
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.regular .arduino .right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+}
+.regular .arduino .right img{
+  
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
 
 
+.regular .result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.regular .result .left {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
+.regular .result .left img{
+  
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    height: 300px;
+}
+
+.regular .result .right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
+.regular .result .right img{
+  
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 6px;    height: 300px;
+
+}
 
 /*------------------------------------------------------------------------------------
 box section

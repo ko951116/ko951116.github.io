@@ -849,6 +849,7 @@ responsive media query
 @media (max-width: 940px) {
     .max-width {
         padding: 0 50px;
+        margin-left: 0;
     }
     .menu-btn{
         display: block;
@@ -879,11 +880,11 @@ responsive media query
         margin: 20px 0;
         font-size: 25px;
     } 
-    .home .home-content .text-1 {
-        font-size: 2rem;
+    .home .home-content .text {
+        font-size: 1.5rem;
     }
     .home .home-content .text-2 {
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .home .home-content .text-3 {
         font-size: 35px;
@@ -957,12 +958,12 @@ responsive media query
     .max-width {
         padding: 0 23px;
     }
-    .home .home-content .text-1 {
-        font-size: 1.5rem;
+    .home .home-content .text{
+        font-size: 1.6rem;
     }
     .home .home-content .text-2 {
         /* font-size: 60px; */
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
     .home .home-content .text-3 {
         font-size: 32px;
@@ -1017,12 +1018,55 @@ responsive media query
 }
 
 @media (max-width: 500px) {
-    .home .home-content .text-1 {
-        font-size: 1.2rem;
+    .home .home-content .text {
+        font-size: 1rem;
     } 
     .home .home-content .text-2 {
        /*  font-size: 50px; */
-       font-size: 1.2rem;
+       font-size: o.9rem;
+    }
+    .home .home-content .text-3 {
+        font-size: 27px;
+    }
+
+
+    .services .serv-content .card h4 {
+        /* font-size: .875rem; */
+        font-size: 0.9rem;
+        /* line-height: 1.25rem; */
+        line-height: 0.5rem;
+    /*     text-transform: uppercase;
+     */ 
+        padding-top: 5px;
+        padding-bottom: 3px;
+        letter-spacing: 0.3em;
+    }
+    .services .serv-content .card h2 {
+        font-weight: 800;
+        letter-spacing: -.01em;
+        font-size: 1.7rem;
+        line-height: 2rem;
+    
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .services .serv-content .card p {
+        font-size: 15px;
+        font-weight: 100;
+        
+        padding-top: 1px;
+        padding-bottom: 3px;
+    }
+} 
+
+@media (max-width: 400px) {
+    .home .home-content .text {
+        font-size: 0.9rem;
+    } 
+    .home .home-content .text-2 {
+       /*  font-size: 50px; */
+       font-size: o.6rem;
     }
     .home .home-content .text-3 {
         font-size: 27px;

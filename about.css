@@ -179,6 +179,13 @@ home section
     /* max-width: 1300px; */
    
 }
+.home .home-content {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 .home .home-content .text-1 {
     font-family: 'Poppins', sans-serif;
 
@@ -190,20 +197,24 @@ home section
 
     font-weight: 500;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
 }
 .home .home-content .text-1 span {
     color: crimson;
     font-weight: 600;
 }
- .about .about-content ::after {
-    /* content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
+.home .home-content .line {
+    content: "";
+    
+  /*   left: 50%; */
     width: 180px;
-    height: 3px;
+    height: 1.5px;
     background: #111111;
-    transform: translateX(-50%); */
+    /* transform: translateX(250%); */
 }
 
 
@@ -299,14 +310,54 @@ section .title::after {
 }
 
 
+/*------------------------------------------
+social section
+-------------------------------------------*/
 
+.social {
+    margin: 0.1rem 2rem;
+    padding: 50px 0;
+}
+.fa-github:before {
+    content: "\f09b";
+}
+.nav-list {
+    /* margin: 0 1rem 0 1rem; */
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #313534;
+}
+.social-media i {
+    font-size: 2rem;
+    transition: color 650ms;
+    margin: 10px;
+    transition: all 0.2s ease;
+
+}
+.social-media .fa-github:hover {
+    color: #9b59b6;
+}
+.social-media .fa-instagram:hover {
+    color: #eb455b;
+}
+.social-media .fa-facebook:hover {
+    color: #5172b9;
+}
 
 /*------------------------------------------
 about section
 -------------------------------------------*/
-
-
-
+.about {
+    padding: 10px 0 200px 0;
+}
 .about .title::after {
     content: "who i am";
 }

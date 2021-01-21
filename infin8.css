@@ -393,6 +393,109 @@ Overview section
 
 
 /*------------------------------------------------------------------------------------
+key-finding
+-------------------------------------------------------------------------------------*/
+.key-finding .key-finding-content .column{
+    width: calc(50% - 30px);
+   /*  display: flex;
+    flex-direction: column; */
+}
+.key-finding .key-finding-content .column{
+  /*   display: flex;
+    flex-wrap: wrap; */
+    /* align-items: center; */
+   /*  justify-content: space-between; */
+}
+
+.key-finding span {
+    font-family: "Poppins", sans-serif;
+}
+
+.regular .regular-content {
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+.regular .list-content {
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.key-finding .key-finding-content  .left {
+    /* width: 45%; */
+  
+    /* margin-right: 10px; */
+}
+
+
+.key-finding .key-finding-content  .left .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.key-finding .key-finding-content .right {
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start; */
+    /* width: 45%; */
+}
+
+/* .about .about-content .right .text span {
+    color: crimson;
+}  */
+.key-finding .key-finding-content  .left p {
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.key-finding .key-finding-content  span {
+    color: #0571FF;
+    font-weight: 600;
+}
+
+
+/*------------------------------------------
+contact me
+-------------------------------------------*/
+
+.contact .contact-content {
+    display: flex;
+    flex-direction: row;
+}
+   
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+    margin: 30px;
+}
+}
+.contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left p{
+    text-align: justify;
+}
+.contact .contact-content .left .icons {
+    margin: 10px 0;
+}
+.contact .contact-content .sub-title {
+    position: relative;
+    /* text-align: center; */
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #0571FF;
+}
+
+
+/*------------------------------------------------------------------------------------
 box section
 -------------------------------------------------------------------------------------*/
 .box{
@@ -622,6 +725,11 @@ regular
 .arrow.test_1:after {border-width:20px 15px;}
 .arrow.test_1:after {border-color:#4ADDA3 transparent transparent transparent; top:20px; left:-10px;}
 
+.arrow.test_2 {
+    width:10px; height:20px;
+}
+.arrow.test_2:after {border-width:20px 15px;}
+.arrow.test_2:after {border-color: transparent transparent transparent #4ADDA3; top:20px; left:-10px;}
 
 .sub-title-content .app_sketch {
     display: flex;

@@ -503,6 +503,8 @@ box section
     padding-bottom: 20px;
     display: flex;
     background: #0571FF; 
+    justify-content: center;
+    align-items: center;
 
     min-height: 400px;
     text-align: center;
@@ -517,12 +519,16 @@ box section
 .box .title {
     color: #fff;
 }
+.box img {
+    width: 100%;
+    
+}
 
 .box4{
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
-    background: #0571FF; 
+    background: #f4f4f4; 
 
     min-height: 400px;
     text-align: center;
@@ -535,6 +541,10 @@ box section
 }
 .box4 .title {
     color: #000;
+}
+.box4 img {
+    width: 100%;
+    
 }
 
 /*----------------------box2-----------------------*/

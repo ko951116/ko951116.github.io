@@ -512,9 +512,29 @@ box section
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 24px;
+    color: #000;
 }
 .box .title {
     color: #fff;
+}
+
+.box4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    background: #0571FF; 
+
+    min-height: 400px;
+    text-align: center;
+    box-sizing: content-box;
+}
+.box4 .text p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+.box4 .title {
+    color: #000;
 }
 
 /*----------------------box2-----------------------*/

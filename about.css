@@ -424,6 +424,12 @@ about section
     color: gray;
 }
 
+.about .about-content .right b {
+    color: #000;
+    font-weight: 500;
+}
+
+
 /*------------------------------------------
 services
 -------------------------------------------*/

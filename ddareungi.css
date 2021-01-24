@@ -281,7 +281,7 @@ home section
 -------------------------------------------------------------------------------------*/
 .home{
     display: flex;
-    background: url("images/projects/infin8/infin8.png") no-repeat center;
+    background: url("images/projects/ddareungi/bg.png") no-repeat center;
     background-size: cover;
     min-height: 500px;
     height: 100vh;

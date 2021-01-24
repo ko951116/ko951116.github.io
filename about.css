@@ -828,7 +828,7 @@ responsive media query
     .home .home-content .text-1 {
         font-size: 2rem;
     }
-
+/* 
     .home .home-content .text-1::before {
     content: "";
     position: absolute;
@@ -838,7 +838,7 @@ responsive media query
     height: 3px;
     background: #111111;
     transform: translateX(-50%);
-    }
+    } */
 
 
     .home .home-content .text-2 {

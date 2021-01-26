@@ -58,7 +58,7 @@ preloader
 .preloader .box div {
     height: 15px;
     width: 15px;
-    background-color: crimson;
+    background-color: #ff384e;
     border-radius: 50%;
     animation: loaderAni 1s ease infinite;
 }
@@ -85,7 +85,7 @@ navbar
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    /* background: crimson; */
+    /* background: #ff384e; */
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
 }
@@ -112,7 +112,7 @@ navbar
     max-width: 2rem; 
 }
 .navbar .logo a span {
-    color: crimson;
+    color: #ff384e;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -131,7 +131,7 @@ navbar
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-    color: crimson;
+    color: #ff384e;
 }
 .navbar.sticky .menu li a:hover {
     color: gray;
@@ -149,7 +149,7 @@ menu btn
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: #ff384e;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -213,11 +213,11 @@ section .sub-title-smaller{
     position: relative;
   /*   text-align: center; */
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 10px;
     padding-bottom: 20px;
     font-family: 'Poppins', sans-serif;
-    color: #4EE69C;
+    color: #000;
 }
 
 section .list span{
@@ -238,7 +238,10 @@ section .list span::before {
     position: absolute;
     z-index: -1;
     left: 50%;
+    top:-12%;
     transform: translateX(-50%);
+/*     transform: translateY(-20%);
+ */
     border-radius: 3px;
     text-align: center;
     /* display: inline-block;
@@ -250,8 +253,8 @@ section .list span::before {
 
 section .list .list-title{
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 22px;
+    font-weight: 400;
+    font-size: 19px;
     margin-bottom: 15px;
 }
 
@@ -376,7 +379,7 @@ Overview section
 }
 
 /* .about .about-content .right .text span {
-    color: crimson;
+    color: #ff384e;
 }  */
 .about .about-content .left p {
     text-align: justify;
@@ -782,7 +785,7 @@ footer {
     font-family: "Poppins", sans-serif;
 }
 footer span a{
-    color: crimson;
+    color: #ff384e;
     text-decoration: none;
 }
 footer span a:hover{

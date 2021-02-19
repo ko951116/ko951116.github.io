@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio website</title>
     <link rel="stylesheet" href="ddareungi.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/0de8e5df92.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js?ver=123"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/omy6aje.css">
@@ -58,34 +58,31 @@
             <h2 class="title">Project Overview</h2>
             <div class="about-content">
                 <div class="column left">
-                    <p>In 2020, the coronavirus pandemic occured in the world. As the situation became more serious,
-                        many people wore face masks to stop the spread of the coronavirus. Face masks are part of our
-                        daily lives during this pandemic. Many of them are designed to be used just once, which means
-                        thousands of tonnes of waste.
-                        <br><br>Every month some 129 billion disposable masks are now being consumed in the world due to
-                        the spread of the coronavirus pandemic. They have worsened the amount of plastic polluting the
-                        world’s landfill and oceans. Disposable masks contain plastics which pollute water and can harm
-                        wildlife who eat them or become tangled in them.
-                        <br><br>As a solution for these issues, we designed a creative and holistic integrated system to
-                        solve the wastage problem caused by the improper disposal of single use face masks.
+                    <p>
+                        Ddareungi is a shared bicycle service operated by the Seoul Metropolitan Government, which has been widely used since its launch in 2015. 
+                        It is so famous and familiar service that any Seoul citizen has heard of it at least once. 
+
+                        <br><br>However, people's assessment of this application is low. 
+                        As a user of Ddareungi, I also sometimes felt uncomfortable with the application.
+                         Therefore, I worked on redesign to improve the UX and UI of Ddareungi application.
                     </p>
 
                     <!-- <span>Project Info</span>
                     <p>Personal Project
                     </p> -->
 
-                    <span>My Role</span>
+                    <!-- <span>My Role</span>
                     <p><b>Team coordinator, UX researcher, UX/UI designer</b>
                         <br>Contributed to UX workflow
                         development, 3D prototyping,
                         and concept sketch.
-                    </p>
+                    </p> -->
 
                     <span>Duration</span>
-                    <p>Apr 2020 (2weeks)</p>
+                    <p>Apr 2020 (2-3weeks)</p>
 
                     <span>Team</span>
-                    <p><b>Jiyoon Ko </b>, Jeong-Hye Yoon
+                    <p>Jiyoon Ko 
                     </p>
 
                 </div>
@@ -173,7 +170,7 @@
             </div>
 
             <!------------------------------User Surveys---------------------------->
-            <div class="sub-title-content">
+            <!-- <div class="sub-title-content">
                 <h3 class="sub-title">User Surveys <span>(13 Responses)</span></h3>
                 <div class="regular-content">
                     <p>
@@ -182,7 +179,7 @@
                     <img src="images/projects/infin8/survey01.png" alt="">
                     <img src="images/projects/infin8/survey.png" alt="">
                 </div>
-            </div>
+            </div> -->
 
             <!------------------------------Research Study---------------------------->
             <!-- <div class="sub-title-content">
@@ -246,9 +243,9 @@
                    
                     <p>
                         Based on the user survey, I was able to group the main targets into three groups.
-                        There is an arbitrary group of users who take bicycles for any reason, such as an emergency.
-                        A group of ordinary users is a group that regularly uses bicycles to commute to and from work and school.
-                        A sports user group is a group that uses bicycles for sports or sports purposes.
+                        There is an arbitrary group of users who take bicycles for any reason, such as an emergency <b>(Group 01: Random Users)</b>.
+                        A group of ordinary users is a group that regularly uses bicycles to commute to and from work and school<b>(Group 02: Regular Users)</b>.
+                        A sports user group is a group that uses bicycles for sports or sports purposes<b>(Group 03: Sports Users)</b>.
                     </p>
                     <img src="images/projects/ddareungi/target3.png" alt="">
 
@@ -273,7 +270,7 @@
 
             <!--------------------------------------Exploring Design Ideas---------------------------------->
             <div class="sub-title-content">
-                <h3 class="sub-title">Exploring Design Ideas</h3>
+                <h3 class="sub-title"> Solution Ideas</h3>
                 <div class="regular-content">
                     <div class="sub-title-content">
                         <!--------------------------------------step1: How to collect the masks?--------------------------------->
@@ -281,16 +278,14 @@
                         <p>To collect and recycle masks, you first have to decide how to collect them. We decided to
                             design a device to collect used masks, and explored it in various directions. </p> -->
 
-                        <h4 class="sub-title-smaller">Solution 01: Login & Password</h4>
+                        <h4 class="sub-title-smaller">Solution 01: Automatic Login & Password</h4>
                         <div class="list-content">
                             <div class="list">
-                                <p class="list-title"><span>1</span><b>Login</b></p>
+                                <p class="list-title"><span>1</span><b>Automatic Login</b></p>
                                 <img src="images/projects/ddareungi/solution_login.png" alt="">
                                 <p>
-                                    Make a device that keeps people from throwing away masks anywhere.
-                                    Suppose it has a complete sterilization system inside the device.
-                                    To reduce people's concerns about infections, make it a system that does not
-                                    recycle masks worn by others, but only those used by themselves.
+                                    Regular users and sports users are people who use bicycles regularly. 
+                                    Therefore, logging in every time can be very cumbersome. Automatic login function is required.
                                 </p>
                             </div>
                             <div class="list">
@@ -298,8 +293,8 @@
                                 <img src="images/projects/ddareungi/solution_password.png" alt="">
 
                                 <p>
-                                    Give DIY kits to people to make a small product who spend most of their time
-                                    at home because of the COVID-19. It could be educational and fun.
+                                    For random users, it is burdensome to enter a password when they first sign up. In a situation where a bicycle is urgently needed, there may be a lack of time to set a password carefully, and it may be embarrassing to forget the password when the bike needs to be used again later.
+                                    Therefore, every time a bicycle is rented, it is changed to a temporary password of four digits.
                                 </p>
                             </div>                           
                         </div>
@@ -309,8 +304,11 @@
                         <h4 class="sub-title-smaller">Solution 02: Directions</h4>
                         <img src="images/projects/ddareungi/solution2.png" alt="">
                         <p>
-                            We have to think about what products people finally get. We explored about the product
-                            considering the functions that the product will have.
+                            Random users who urgently need bicycles to their destinations and sports users who want to exercise their bikes on the course they want have to use different directions applications. 
+                            It is not only inconvenient to check back and forth between two applications, but also dangerous while riding a bicycle, 
+                            as the Ddareungi app needs to be constantly checked to check the remaining time. 
+                            The Ddareungi app needs a directions function to the destination.
+
                         </p>
                         <br><br><br><br><br>
 
@@ -319,9 +317,15 @@
                         <h4 class="sub-title-smaller">Solution 03: Exercise Information </h4>
                         <img src="images/projects/ddareungi/solution3.png" alt="">
 
-                        <p>We decided that we needed a relevant application to connect people with the mask collection
-                            device we make. Also, people may choose/shopping DIY products that are the result of the
-                            project on the application.
+                        <p>
+                            Sports users want to check their records of exercising while riding the Ddareungi. 
+                            Currently, there is no such function, 
+                            so users use another health record app, 
+                            but it is difficult to see exactly how much they exercised with just a bicycle 
+                            because the Ddareungi is not exclusive. 
+                            Therefore, it is necessary to display the driving time, distance, and calories consumed in real time, 
+                            and to collect the data and check it on a monthly or daily basis.
+
                         </p>
                         <br><br><br><br><br>
 
@@ -333,10 +337,10 @@
                                 <p class="list-title"><span>1</span><b>Alarm</b></p>
                                 <img src="images/projects/ddareungi/alarm.png" alt="">
                                 <p>
-                                    Make a device that keeps people from throwing away masks anywhere.
-                                    Suppose it has a complete sterilization system inside the device.
-                                    To reduce people's concerns about infections, make it a system that does not
-                                    recycle masks worn by others, but only those used by themselves.
+                                    Currently, when using the Ddareungi, the alarm is indirectly notified through Kakao Talk 10 minutes before the remaining time. 
+                                    The problem is, some people do not use Kakao Talk, and people do not easily recognize that it is an alarm when riding because it is not an alarm that comes from the app itself. 
+                                    Therefore, the Ddareungi app gives an alarm five minutes before returning it with a loud vibration or sound on its own so that users can easily recognize the remaining time while even riding.
+
                                 </p>
                             </div>
                             <div class="list">
@@ -344,8 +348,8 @@
                                 <img src="images/projects/ddareungi/solution44.png" alt="">
 
                                 <p>
-                                    Give DIY kits to people to make a small product who spend most of their time
-                                    at home because of the COVID-19. It could be educational and fun.
+                                    When the alarm goes off as shown above, users can extend it on the app if they want to. However, it is only possible to extend it once for the smooth sharing of bicycles among citizens.
+
                                 </p>
                             </div>                           
                         </div>             
@@ -357,7 +361,9 @@
                         <div class="sub-title-content">
                             <h3 class="sub-title">Persona</h3>
                             <div class="regular-content">
-                                <img src="images/projects/infin8/persona.png" alt="">
+                                <img src="images/projects/ddareungi/persona1.png" alt="">
+                                <img src="images/projects/ddareungi/persona2.png" alt="">
+
                             </div>
                         </div>
 
@@ -373,35 +379,8 @@
                         <div class="sub-title-content">
                             <h3 class="sub-title">Design Objectives</h3>
                             <div class="regular-content">
-                                <img src="images/projects/pillend/vision.png" alt="">
+                                <img src="images/projects/ddareungi/obj.png" alt="">
 
-                                <!-- <div class="list-content">
-                                    <div class="list">
-                                        <p class="list-title"><span>1</span>Device: for collecting & returning the masks
-                                        </p>
-                                        <p>
-                                            Make a device that keeps people from throwing away masks anywhere.
-                                            Suppose it has a complete sterilization system inside the device.
-                                            To reduce people's concerns about infections, make it a system that does not
-                                            recycle masks worn by others, but only those used by themselves.
-                                        </p>
-                                    </div>
-                                    <div class="list">
-                                        <p class="list-title"><span>2</span>Product: resultant product</p>
-                                        <p>
-                                            Give DIY kits to people to make a small product who spend most of their time
-                                            at home because of the COVID-19. It could be educational and fun.
-                                        </p>
-                                    </div>
-                                    <div class="list">
-                                        <p class="list-title"><span>3</span>App: connecting people with the device and
-                                            the product</p>
-                                        <p>
-                                            Give people incentives for recycling the masks through the app. Connect
-                                            users to the machine and the product with easy UX/UI.
-                                        </p>
-                                    </div>
-                                </div> -->
                             </div>
                         </div>
 
@@ -423,11 +402,11 @@
              <div class="sub-title-content">
                 <h3 class="sub-title">Information Architecture</h3>
                 <div class="regular-content">
-                    <p>Before we start working on design, we decided to make an item ourselves using a mask. The reason
-                        for making this prototype was to experience the process of making the necessary items using the
-                        masks that you used which is the overall purpose of the project. It was also because we had to
-                        know what the results of our project would look like and what people will experience in the
-                        process of making it.
+                    <p>
+                        The information architecture of the service is consists of a login page, a map, an alarm and buying a ticket. 
+                        Once the user logs in, the user can see a map to check his or her location and the location of the bicycle rental station.
+                        The map allows the user to perform a variety of functions, of which clicking Buy Ticket will switch to the screen for the purchase of the ticket. 
+                        When the rental time approaches, it automatically switches to the alarm screen.
                     </p>
                     <img src="images/projects/ddareungi/ia.png" alt="">
                 </div>
@@ -437,11 +416,9 @@
             <div class="sub-title-content">
                 <h3 class="sub-title">Low-Fidelity Prototype</h3>
                 <div class="regular-content">
-                    <p>Before we start working on design, we decided to make an item ourselves using a mask. The reason
-                        for making this prototype was to experience the process of making the necessary items using the
-                        masks that you used which is the overall purpose of the project. It was also because we had to
-                        know what the results of our project would look like and what people will experience in the
-                        process of making it.
+                    <p>
+                        I started building the initial low-fidelity prototype to visualize the IA above. 
+                        
                     </p>
                     <img src="images/projects/ddareungi/low-fi3.png" alt="">
                 </div>
@@ -452,13 +429,18 @@
             <div class="sub-title-content">
                 <h3 class="sub-title">Mid-Fidelity Prototype</h3>
                 <div class="regular-content">
-                    <p>Before we start working on design, we decided to make an item ourselves using a mask. The reason
-                        for making this prototype was to experience the process of making the necessary items using the
-                        masks that you used which is the overall purpose of the project. It was also because we had to
-                        know what the results of our project would look like and what people will experience in the
-                        process of making it.
+                    <p>
+
+                        I improved design ideas and details that need to be addressed. 
+                        Then I built mid-fidelity prototypes to visualize key functionalities of the app.  
                     </p>
                     <img src="images/projects/ddareungi/mid-fi.png" alt="">
+                    <p>
+                        💡 Ddareungi is a service used by various age groups <b>from teenagers to 60s</b>. Therefore, small letters and numbers are hard to read for older people, so <b>the size of the letters should be increased</b>.
+
+                        <br>💡 When renting a bicycle, it is necessary to explain the <b>4-digit rental number</b> and the <b>extension of the rental time</b>.
+
+                    </p>
                 </div>
             </div>
 

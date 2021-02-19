@@ -48,10 +48,10 @@ $(document).ready(function(){
         loop: true
     });
 
-    AOS.init({
+    /* AOS.init({
         easing: 'ease',
         duration: 900,
         once: true
-    });
+    }); */
 
 });

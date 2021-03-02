@@ -1049,4 +1049,9 @@ responsive media query
         padding-top: 1px;
         padding-bottom: 3px;
     }
+    .funfact .funfact-content img {
+        width: 100px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
 } 

@@ -27,7 +27,20 @@ li {
 h3 {
     font-family: "Poppins", sans-serif;
 }
-  
+.regular .overviewfinal-content {
+    margin-bottom: 0;
+}
+
+.regular .overviewfinal-content .overviewfinal-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.regular .overviewfinal-content .overviewfinal-img img {
+    max-width: 100vw;
+    margin-bottom: 0;
+}
 
 
 /*------------------------------------------------------------------------------------
@@ -414,6 +427,10 @@ box section
 }
 .box .title {
     color: #fff;
+}
+.box img {
+    width: 100%;
+    
 }
 
 /*----------------------box2-----------------------*/
